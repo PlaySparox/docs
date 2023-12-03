@@ -5,12 +5,14 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "feedback.thumbsRating": true
+  "feedback": {
+    "thumbsRating": true
+  },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#CD7F32",
+    "light": "#CD7F32",
+    "dark": "#CD7F32",
     "anchors": {
       "from": "#f66b26",
       "to": "#f59a28"
@@ -26,27 +28,22 @@
     "name": "Store",
     "url": "https://shop.sparox.net"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "tabs": [],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
+      "name": "Store",
+      "icon": "store",
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
-      "icon": "slack",
+      "name": "Discord",
+      "icon": "discord",
       "url": "https://mintlify.com/community"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Email",
+      "icon": "envelope",
+      "url": "mailto:support@sparox.net"
     }
   ],
   "navigation": [
@@ -72,8 +69,7 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/PlaySparox",
+    "github": "https://github.com/PlaySparox"
   }
 }
