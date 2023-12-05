@@ -61,7 +61,7 @@
     },
     {
       "group": "Other",
-      "pages": ["other/interactive-chat", "Lorem ipsum"]
+      "pages": ["other/interactive-chat", "other/vote-party"]
     }
   ],
   "footerSocials": {
