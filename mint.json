@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Sparox Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/logo.png",
+    "light": "/logo/logo.png"
   },
   "feedback": {
     "thumbsRating": true
@@ -31,41 +31,37 @@
   "tabs": [],
   "anchors": [
     {
-      "name": "Store",
-      "icon": "store",
-      "url": "https://mintlify.com/docs"
-    },
-    {
       "name": "Discord",
       "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "url": "https://s.sparox.net/discord"
     },
     {
-      "name": "Email",
-      "icon": "envelope",
-      "url": "mailto:support@sparox.net"
+      "name": "Store",
+      "icon": "store",
+      "url": "https://s.sparox.net/shop"
+    },
+    {
+      "name": "Vote",
+      "icon": "check-to-slot",
+      "url": "https://s.sparox.net/vote"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Getting Started",
+      "pages": ["introduction", "beginners-guide"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "group": "General Information",
+      "pages": ["Lorem ipsum", "Lorem ipsum"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "group": "Towns",
+      "pages": ["Lorem ipsum", "Lorem ipsum"]
     },
     {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Other",
+      "pages": ["other/interactive-chat", "Lorem ipsum"]
     }
   ],
   "footerSocials": {

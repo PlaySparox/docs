@@ -1,0 +1,23 @@
+---
+title: 'Interactive Chat'
+description: 'Send chat messages with insightful information'
+icon: 'message'
+---
+
+## Chat Placeholders
+
+All our game servers feature **Interactive Chat** which allows users to send messages with information such as their current balance, inventory or held item.
+
+| Type         | Placeholder  | Result          |
+| ------------ | ------------ | --------------- |
+| Item         | [item]       | Sends a **hoverable** message which shows your held item's name, enchants and other related data. |
+| Inventory    | [inv]        | Sends a **clickable** message which opens a GUI, showing all of your inventory items. |
+| Money        | [money]      | Sends a **hoverable** message which shows your current balance |
+| Coordinates  | [pos]        | Sends a **chat** message which shows your coordinates. |
+
+## Player Mentioning
+
+Additionally, you can mention players in-game which notifies them of your message.
+You can do this by including a `@` before their name. (Example: *`Hey @MaxUK__, I've found Diamonds!`*).
+
+<Tip>**Don't want to be mentioned?** You can disable all chat mentions with `/ic mentiontoggle`.</Tip>
